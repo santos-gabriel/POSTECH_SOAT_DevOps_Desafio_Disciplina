@@ -34,7 +34,13 @@
 			<version>1.0.2</version>
 		</dependency>
 	</dependencies>
-
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/santos-gabriel/POSTECH_SOAT_DevOps_Desafio_Disciplina</url>
+		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
