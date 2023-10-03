@@ -141,7 +141,7 @@ jobs:
           echo "Deploy PROD"
 
   deploy-aws:
-    needs: deploy-Prod
+    needs: build
     name: Deploy-aws
     runs-on: ubuntu-latest
     steps:
